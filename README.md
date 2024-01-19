@@ -45,6 +45,7 @@ This page is a dark theme with slightyly larger text. I've chosen that because i
 
 `/index/theme-name-home`
 
+___
   
 The home page of a specific theme
 
@@ -58,6 +59,7 @@ If this were a single site instead of this multi-site community project the addr
 
 Please name your css file with `theme-name-styles.css` and place it inside your `/index/theme-name` directory.
 
+___
 
 #### Vanilla JavaScript, HTML, and CSS
 
@@ -65,13 +67,15 @@ Please name your css file with `theme-name-styles.css` and place it inside your 
 
 If you're going to use JavaScript in a site, please put everything inside the /js directory! JavaScript adds a level of complexity and responsiblity for ensuring that the code is accessible for screenreader, refreshable braille display, keyboard, and alternative input/output device users.
 
+___
 
 #### Sites Using JavaScript and/or CSS Frameworks or Libraries
 
 If you use a Javascript library or framework, and/or a UI library such as Tailwind, Charka UI, or Material UI please place it inside the `/index/js/` directory. **Please subnit an issue if you are going to use anything but vanilla js and vanilla css.** There is nothing wrong with not using vanilla js and css - my favourite stack right now is Next.js and Tailwind - but the primary goal of this project is to create sites that are accessible for our study group members.
 
 - Pages inside sites with vanilla JavaScript would have the following file structure: `/index/js/theme-name/page-name`
-- 
+
+___
 
 #### Sites Using Other Web Languages Than JavaScript
 
