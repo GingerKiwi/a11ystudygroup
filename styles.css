@@ -1,0 +1,54 @@
+:root {
+    --clr--background: #000;
+    --clr--headings: #fff;
+    --clr--body-text: #fff;
+    --clr--nav--link: purple;
+    --clr--link: blue;
+
+    --font-family--headings: 'Roboto', sans-serif;
+    --font-family--body-text: 'Open Sans', sans-serif;
+
+    --font-weight--headings: 700;
+    --font-weight--body-text: 400;
+    --font-weight--nav--link: 500;
+    --font-weight-focus-hover: 700;
+}
+
+body {
+    background-color: var(--clr--background);
+    color: var(--clr--body-text);
+    font-family: var(--font-family--body-text);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--clr--headings);
+    font-family: var(--font-family--headings);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+a {
+    color: var(--clr--link);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav--link {
+    color: var(--clr--nav--link);
+    font-family: var(--font-family--headings);
+    font-weight: var(--font-weight--nav--link);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav--link:hover, .nav--link:focus {
+    color: var(--clr--nav--link);
+}
