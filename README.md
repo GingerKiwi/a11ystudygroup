@@ -36,36 +36,62 @@ NOTE: Contributors and other Web Accessibility Study Group members are invited t
 
 To facilitate this projects' two goals please follow the file structure below:
 
-#### /index
+`/index`
 
 The project's home page. Please do not edit or submit an issue unless there's a spelling mistake or something is inaccessible.
 This page is a dark theme with slightyly larger text. I've chosen that because it's my personal preference, and I'm the one developing it.
 
-#### /index/theme-name-home
+#### Vanilla HTML and CSS Themes
+
+`/index/theme-name-home`
+
   
 The home page of a specific theme
 
-#### /index/theme-name-home/page-name
+`/index/theme-name-home/page-name`
 
-A site page styled with the specific theme. If this were a single site the address would be `index/page-name`
+A site page styled with the specific theme. 
 
-#### /index/js/theme-name and /index/js/flavour-of-javascript-name/index.html
+If this were a single site instead of this multi-site community project the address would be `index/page-name`. But it's not, so don't.
+
+`/index/theme-name/theme-name-styles.css`
+
+Please name your css file with `theme-name-styles.css` and place it inside your `/index/theme-name` directory.
+
+
+#### Vanilla JavaScript, HTML, and CSS
+
+`/index/js/theme-name and /index/js/flavour-of-javascript-name/index.html`
 
 If you're going to use JavaScript in a site, please put everything inside the /js directory! JavaScript adds a level of complexity and responsiblity for ensuring that the code is accessible for screenreader, refreshable braille display, keyboard, and alternative input/output device users.
+
+
+#### Sites Using JavaScript and/or CSS Frameworks or Libraries
 
 If you use a Javascript library or framework, and/or a UI library such as Tailwind, Charka UI, or Material UI please place it inside the `/index/js/` directory. **Please subnit an issue if you are going to use anything but vanilla js and vanilla css.** There is nothing wrong with not using vanilla js and css - my favourite stack right now is Next.js and Tailwind - but the primary goal of this project is to create sites that are accessible for our study group members.
 
 - Pages inside sites with vanilla JavaScript would have the following file structure: `/index/js/theme-name/page-name`
+- 
 
-#### /index/language-name/theme-name
+#### Sites Using Other Web Languages Than JavaScript
+
+`/index/language-name/theme-name`
 
 If anyone ever wants to go to town and use another programming language besides vanilla JavaScript or a JS framework of library, (e.g. Ruby on Rails), please follow this file structure. While it's not a priority, experimenting with coding accessiblity in other programming langages that can be used to create web apps is welcome. 
 
-Please contact me by submitting an issue before creating a site with another
+Please contact me by submitting an issue before creating a site with another web language besides JavaScript.
 
-#### /index/theme-name/theme-name-styles.css
+___
 
-Please name your css file with `theme-name-styles.css` and place it inside your `/index/theme-name` directory.
+2024-01-19
+
+Created this repo. Will add more to README.md and might add a CONTRIBUTING.md.
+
+Time to get coding the actual sites!
+
+
+
+
 
 
 
