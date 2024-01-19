@@ -1,12 +1,13 @@
+/* LIGHT THEME! */
 :root {
-    --clr--background: #000;
-    --clr--headings: #fff;
-    --clr--body-text: #fff;
-    --clr--link: #22d3ee;
-    --clr--link-hover: #a5f3fc;
-    --clr--nav--link: #e879f9;
-    --clr--nav--link--hover: #f5d0fe;
-    --clr--nav--link--focus: #f5d0fe;
+    --clr--background: antiquewhite;
+    --clr--headings: #1d1d1d;
+    --clr--body-text: #1d1d1d;
+    --clr--link: #164e63;
+    --clr--link-hover: #083344;
+    --clr--nav--link: #701a75;
+    --clr--nav--link--hover: #4a044e;
+    --clr--nav--link--focus: #4a044e;
     
 
     --font-family--headings: 'Lilita One', sans-serif;
