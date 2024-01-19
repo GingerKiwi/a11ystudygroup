@@ -27,7 +27,10 @@ Members of the Web Accessibilty Study Group who are developers or who want to wo
 5. While you can @ mention me in a discussion thread in this repo, @ mentioning me or DMing me in our discord channel is likley to be quicker.
 6. Project resources for those newer to coding and/or markdown are in the [resources.md file]() of this repo. **HEY LIZ ADD THE LINK WHEN YOU CREATE THE FILE!**
 7. Please use CSS variables. See the example below and in the /styles.css
-8. Contributors and other Web Accessibility Study Group members are invited to be part of the [TorontoJS](https://torontojs.com) Code Buddy Club. I'm a co-founder and co-organizer. Information about the TorontoJS Code Buddy Club is in my January 2024 [LinkedIn Post](https://www.linkedin.com/posts/elizabethmccready_github-javascript-softwareengineering-activity-7147949670831468544-q2VC?utm_source=share&utm_medium=member_desktop) You can also reach out to the other TorontoJS Code Buddy Club co-founders [Sami] or [Marco Campos].
+8. Please clone this repo, and create a branch using the following branch naming convention: `YYYY-MM-DD-YourGitHubUserName_type-of-branch_specific-update`. An example of branch name can be found on [this project's first pull request](https://github.com/GingerKiwi/a11ystudygroup/pull/1). Note that it was created before the pull request template was created.
+
+
+NOTE: Contributors and other Web Accessibility Study Group members are invited to be part of the [TorontoJS](https://torontojs.com) Code Buddy Club. I'm a co-founder and co-organizer. Information about the TorontoJS Code Buddy Club is in my January 2024 [LinkedIn Post](https://www.linkedin.com/posts/elizabethmccready_github-javascript-softwareengineering-activity-7147949670831468544-q2VC?utm_source=share&utm_medium=member_desktop) You can also reach out to the other TorontoJS Code Buddy Club co-founders [Sami] or [Marco Campos].
 
 ### File Structure - Rendered Pages (e.g. .html files)
 
