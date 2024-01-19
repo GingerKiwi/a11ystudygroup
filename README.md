@@ -43,29 +43,31 @@ This page is a dark theme with slightyly larger text. I've chosen that because i
 
 #### Vanilla HTML and CSS Themes
 
-`/index/theme-name-home`
+`/index/theme-name/index.html`
 
 ___
   
 The home page of a specific theme
 
-`/index/theme-name-home/page-name`
+`/index/theme-name/page-name.html`
 
 A site page styled with the specific theme. 
 
-If this were a single site instead of this multi-site community project the address would be `index/page-name`. But it's not, so don't.
+If this were a single site instead of this multi-site community project the address would be `/page-name`. But it's not, so don't.
 
 `/index/theme-name/theme-name-styles.css`
 
-Please name your css file with `theme-name-styles.css` and place it inside your `/index/theme-name` directory.
+Please name your css file with `theme-name-styles.css` and place it inside your `/theme-name` directory.
 
 ___
 
 #### Vanilla JavaScript, HTML, and CSS
 
-`/index/js/theme-name and /index/js/flavour-of-javascript-name/index.html`
+Adding sites using JavaScript is welcome, but not a priority.
 
-If you're going to use JavaScript in a site, please put everything inside the /js directory! JavaScript adds a level of complexity and responsiblity for ensuring that the code is accessible for screenreader, refreshable braille display, keyboard, and alternative input/output device users.
+`/index/js/theme-name` and `/index/js/flavour-of-javascript-name/index.html`
+
+If you're going to use JavaScript in a site, please put everything inside the /js directory! JavaScript adds a level of complexity and responsibility for ensuring that the code is accessible for screenreader, refreshable braille display, keyboard, and alternative input/output device users.
 
 ___
 
