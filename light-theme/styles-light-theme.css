@@ -1,9 +1,10 @@
 /* LIGHT THEME! */
 :root {
-    --clr--background: antiquewhite;
+    --clr--background: #fefce8;
     --clr--headings: #1d1d1d;
     --clr--body-text: #1d1d1d;
-    --clr--link: #164e63;
+    --clr--link: #075985;
+    --clr-link-visited: #5b21b6;
     --clr--link-hover: #083344;
     --clr--nav--link: #701a75;
     --clr--nav--link--hover: #4a044e;
@@ -50,6 +51,8 @@ p {
 a {
     color: var(--clr--link);
     text-decoration: underline;
+    text-underline-offset: .25rem;
+    font-weight: bolder;
 }
 
 a:hover, a:focus {
@@ -58,9 +61,23 @@ a:hover, a:focus {
     text-underline-offset: 1rem;
 }
 
+/* a:visited {
+    color: var(--clr--link-visited);
+} */
+
 li {
     list-style: none;
     line-height: 4rem;
+}
+
+hr {
+    border: 1px solid var(--clr--nav--link);
+    margin: 2rem 0;
+}
+
+.hr--under-nav {
+    border: 2px solid var(--clr--link);
+    margin: 2rem 0;
 }
 
 .nav--link {
@@ -102,3 +119,15 @@ li {
 .margin-bottom-2rem {
     margin-bottom: 2rem;
 }
+
+.li--study-plan {
+    line-height: 2.2rem;
+    list-style-type: disc;
+    margin-left: 1.75rem;
+}
+
+.text--underline {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+}
+

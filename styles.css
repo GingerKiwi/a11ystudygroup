@@ -50,6 +50,7 @@ p {
 a {
     color: var(--clr--link);
     text-decoration: underline;
+    text-underline-offset: .25rem;
 }
 
 a:hover, a:focus {
@@ -61,6 +62,16 @@ a:hover, a:focus {
 li {
     list-style: none;
     line-height: 4rem;
+}
+
+hr {
+    border: 1px solid var(--clr--nav--link);
+    margin: 2rem 0;
+}
+
+.hr--under-nav {
+    border: 2px solid var(--clr--link);
+    margin: 2rem 0;
 }
 
 .nav--link {
@@ -102,3 +113,15 @@ li {
 .margin-bottom-2rem {
     margin-bottom: 2rem;
 }
+
+.li--study-plan {
+    line-height: 2.2rem;
+    list-style-type: disc;
+    margin-left: 1.75rem;
+}
+
+.text--underline {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+}
+
